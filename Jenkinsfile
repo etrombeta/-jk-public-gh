@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonning Git Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/etrombeta/jk-public-gh.git'
+                git branch: 'main', url: 'https://github.com/etrombeta/-jk-public-gh.git'
             }
         }
         stage('Building Image') {
